@@ -6,7 +6,7 @@
 
 <script>
 // import HelloWorld from "./components/HelloWorld";
-import CHeader from "./components/CHeader";
+// import CHeader from "./components/CHeader";
 import Home from "./views/Home";
 
 export default {
