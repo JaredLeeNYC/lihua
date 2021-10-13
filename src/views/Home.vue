@@ -23,18 +23,17 @@
             <div class="w-full lg:w-6/12 px-4 ml-0 mr-auto text-left">
               <div class="">
                 <h1 class="text-white font-semibold text-5xl">
-                  台山市利华电子厂
+                  台山市利华电子厂有限公司
                 </h1>
                 <p class="mt-12 text-lg text-gray-300">
-                  全面的电子制造服务—供应链管理，完整的生产配套方案。
-                  产品分布于航空控制，工业仪器，医疗设备，多媒体，专业音响设备和交通运输等领域。
+                  超25年专注于电子制造服务，完善的工业配套方案为客户提供世界级质量以及有竞争性的产品与服务。产品分布于航空控制，工业仪器，医疗设备，多媒体，专业音响设备，交通运输以及电机驱动系统等领域。
                 </p>
                 <!-- <h1 class="text-white font-semibold text-5xl">
                   台山市利华电子厂
                 </h1> -->
                 <!-- <ul class="mt-12">
                   <li class="mt-4 text-lg text-gray-300">
-                    厂区占地50亩，生产车间占地7,000平方米
+                   1993年，成立于中国·台山。 厂区占地50亩，生产车间占地7,000平方米
                   </li>
                   <li class="mt-4 text-lg text-gray-300">
                     1993年，成立于中国·台山
@@ -87,9 +86,15 @@
                     <i class="fas fa-award"></i>
                   </div>
                   <h6 class="text-xl font-semibold">PCBA</h6>
-                  <p class="mt-2 mb-4 text-gray-600">
+                  <img
+                    alt="..."
+                    src="../assets/img/pcba.png"
+                    class="shadow-lg rounded-lg max-w-full mx-auto my-4"
+                    style="max-width: 260px"
+                  />
+                  <!-- <p class="mt-2 mb-4 text-gray-600">
                     工业控制、汽车或航天类定制线束。压接、焊接&绝缘穿刺（IDC）连接工艺。可靠性测试，自动线束测试，高压测试。
-                  </p>
+                  </p> -->
                   <!-- <ul>
                     <li class="mt-2 mb-4 text-gray-600">
                       表 面 贴 装 、 通 孔 插 装 、 R o H S 或 N o n - R o H S
@@ -131,9 +136,15 @@
                       可 靠 性 测 试 ， 自 动 线 束 测 试 ， 高 压 测 试
                     </li>
                   </ul> -->
-                  <p class="mt-2 mb-4 text-gray-600">
+                  <!-- <p class="mt-2 mb-4 text-gray-600">
                     工业控制、汽车或航天类定制线束。压接、焊接&绝缘穿刺（IDC）连接工艺。可靠性测试，自动线束测试，高压测试。
-                  </p>
+                  </p> -->
+                  <img
+                    alt="..."
+                    src="../assets/img/cable.png"
+                    class="shadow-lg rounded-lg max-w-full mx-auto my-4"
+                    style="max-width: 260px"
+                  />
                 </div>
               </div>
             </div>
@@ -161,9 +172,15 @@
                       定 制 化 的 组 装 、 测 试 以 及 包 装 方 式
                     </li>
                   </ul> -->
-                  <p class="mt-2 mb-4 text-gray-600">
+                  <!-- <p class="mt-2 mb-4 text-gray-600">
                     工业控制、汽车或航天类定制线束。压接、焊接&绝缘穿刺（IDC）连接工艺。可靠性测试，自动线束测试，高压测试。
-                  </p>
+                  </p> -->
+                  <img
+                    alt="..."
+                    src="../assets/img/box.png"
+                    class="shadow-lg rounded-lg max-w-full mx-auto my-4"
+                    style="max-width: 260px"
+                  />
                 </div>
               </div>
             </div>
@@ -176,27 +193,24 @@
                 <i class="fas fa-user-friends text-xl"></i>
               </div>
               <h3 class="text-3xl mb-2 font-semibold leading-normal">
-                Working with us is a pleasure
+                利华简介
               </h3>
               <p
                 class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
               >
-                Don't let your uses guess by attaching tooltips and popoves to
-                any element. Just make sure you enable them first via
-                JavaScript.
+                利华成立于 1993 年，致力于全球电子制造服务的全方位服务，为 OEM
+                提供“交钥匙解决方案”、供应链管理和测试解决方案，以始终如一的质量、准时交货和具有竞争力的价格满足客户的期望。
               </p>
-              <p
+              <!-- <p
                 class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"
               >
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. Just make sure you enable them first via JavaScript.
-              </p>
-              <a
+                利华位于广东省台山市，厂区占地50亩，生产车间占地7,000平方米。
+              </p> -->
+              <!-- <a
                 href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
                 class="font-bold text-gray-800 mt-8"
                 >Check Tailwind Starter Kit!</a
-              >
+              > -->
             </div>
             <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
               <div
@@ -204,7 +218,7 @@
               >
                 <img
                   alt="..."
-                  src="https://z3.ax1x.com/2021/09/23/4d0JnU.jpg"
+                  src="https://z3.ax1x.com/2021/10/13/5KeGr9.png"
                   class="w-full align-middle rounded-t-lg"
                 />
                 <blockquote class="relative p-8 mb-4">
@@ -222,9 +236,7 @@
                   </svg>
                   <h4 class="text-xl font-bold text-white">利华厂区</h4>
                   <p class="text-md font-light mt-2 text-white">
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens.
+                    利华位于广东省台山市，厂区占地50亩，生产车间占地7,000平方米。
                   </p>
                 </blockquote>
               </div>
@@ -254,26 +266,26 @@
         </div>
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <div class="w-full md:w-6/12 ml-auto mr-auto px-4">
               <img
                 alt="..."
                 class="max-w-full rounded-lg shadow-lg"
-                src="https://z3.ax1x.com/2021/09/23/4d06BD.jpg"
+                src="https://z3.ax1x.com/2021/09/23/4d0JnU.jpg"
               />
             </div>
-            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
               <div class="md:pr-12">
                 <div
                   class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
                 >
                   <i class="fas fa-rocket text-xl"></i>
                 </div>
-                <h3 class="text-3xl font-semibold">A growing company</h3>
-                <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                <h3 class="text-3xl font-semibold">联系我们</h3>
+                <!-- <p class="mt-4 text-lg leading-relaxed text-gray-600">
                   The extension comes with three pre-built pages to help you get
                   started faster. You can change the text and images and you're
                   good to go.
-                </p>
+                </p> -->
                 <ul class="list-none mt-6">
                   <li class="py-2">
                     <div class="flex items-center">
@@ -285,7 +297,7 @@
                       </div>
                       <div>
                         <h4 class="text-gray-600">
-                          Carefully crafted components
+                          地址：中国广东省台山市台城北坑工业区89号
                         </h4>
                       </div>
                     </div>
@@ -299,7 +311,7 @@
                         ></span>
                       </div>
                       <div>
-                        <h4 class="text-gray-600">Amazing page examples</h4>
+                        <h4 class="text-gray-600">联系方式：12345678</h4>
                       </div>
                     </div>
                   </li>
@@ -312,7 +324,9 @@
                         ></span>
                       </div>
                       <div>
-                        <h4 class="text-gray-600">Dynamic components</h4>
+                        <h4 class="text-gray-600">
+                          办公时间：周一至周六 8:30am~6:00pm
+                        </h4>
                       </div>
                     </div>
                   </li>
@@ -324,31 +338,31 @@
       </section>
       <section class="pt-20 pb-48">
         <div class="container mx-auto px-4">
-          <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="flex flex-wrap justify-center text-center mb-8">
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold">Here are our heroes</h2>
-              <p class="text-lg leading-relaxed m-4 text-gray-600">
+              <h2 class="text-4xl font-semibold">利华服务</h2>
+              <!-- <p class="text-lg leading-relaxed m-4 text-gray-600">
                 According to the National Oceanic and Atmospheric
                 Administration, Ted, Scambos, NSIDClead scentist, puts the
                 potentially record maximum.
-              </p>
+              </p> -->
             </div>
           </div>
           <div class="flex flex-wrap">
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="w-full md:w-6/12 lg:mb-0 mb-12 px-4 mt-12">
               <div class="px-6">
                 <img
                   alt="..."
                   src="https://z3.ax1x.com/2021/10/09/5FcK2R.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px"
+                  style="max-width: 360px"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Ryan Tompson</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  <h5 class="text-xl font-bold">插件组装工艺</h5>
+                  <!-- <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                     Web Developer
-                  </p>
-                  <div class="mt-6">
+                  </p> -->
+                  <!-- <div class="mt-6">
                     <button
                       class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
@@ -365,24 +379,24 @@
                     >
                       <i class="fab fa-dribbble"></i>
                     </button>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="w-full md:w-6/12 lg:mb-0 mb-12 px-4 mt-12">
               <div class="px-6">
                 <img
                   alt="..."
                   src="https://z3.ax1x.com/2021/10/09/5FcnPJ.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px"
+                  style="max-width: 360px"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Romina Hadid</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  <h5 class="text-xl font-bold">专用线缆和线束组件</h5>
+                  <!-- <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                     Marketing Specialist
-                  </p>
-                  <div class="mt-6">
+                  </p> -->
+                  <!-- <div class="mt-6">
                     <button
                       class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
@@ -394,24 +408,24 @@
                     >
                       <i class="fab fa-facebook-f"></i>
                     </button>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="w-full md:w-6/12 lg:mb-0 mb-12 px-4 mt-12">
               <div class="px-6">
                 <img
                   alt="..."
                   src="https://z3.ax1x.com/2021/10/09/5Fce54.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px"
+                  style="max-width: 360px"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Alexa Smith</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  <h5 class="text-xl font-bold">机电装配</h5>
+                  <!-- <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                     UI/UX Designer
-                  </p>
-                  <div class="mt-6">
+                  </p> -->
+                  <!-- <div class="mt-6">
                     <button
                       class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
@@ -428,24 +442,24 @@
                     >
                       <i class="fab fa-instagram"></i>
                     </button>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="w-full md:w-6/12 lg:mb-0 mb-12 px-4 mt-12">
               <div class="px-6">
                 <img
                   alt="..."
                   src="https://z3.ax1x.com/2021/10/09/5FcZaF.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px"
+                  style="max-width: 360px"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Jenna Kardi</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  <h5 class="text-xl font-bold">测试服务</h5>
+                  <!-- <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                     Founder and CEO
-                  </p>
-                  <div class="mt-6">
+                  </p> -->
+                  <!-- <div class="mt-6">
                     <button
                       class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
@@ -467,7 +481,7 @@
                     >
                       <i class="fab fa-instagram"></i>
                     </button>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -497,11 +511,9 @@
         <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
           <div class="flex flex-wrap text-center justify-center">
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold text-white">Build something</h2>
+              <h2 class="text-4xl font-semibold text-white">利华的优势</h2>
               <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                Put the potentially record low maximum sea ice extent tihs year
-                down to low ice. According to the National Oceanic and
-                Atmospheric Administration, Ted, Scambos.
+                团队稳定，协作熟练，从而确保项目质量，并使得执行效率远高于行业一般水平，我们与行业专家保持密切沟通合作，具备丰富的项目经验。
               </p>
             </div>
           </div>
@@ -513,11 +525,10 @@
                 <i class="fas fa-medal text-xl"></i>
               </div>
               <h6 class="text-xl mt-5 font-semibold text-white">
-                Excelent Services
+                长期合作伙伴
               </h6>
               <p class="mt-2 mb-4 text-gray-500">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                与客户建立长期合作伙伴关系，提供定制化的服务
               </p>
             </div>
             <div class="w-full lg:w-3/12 px-4 text-center">
@@ -526,12 +537,9 @@
               >
                 <i class="fas fa-poll text-xl"></i>
               </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">
-                Grow your market
-              </h5>
+              <h5 class="text-xl mt-5 font-semibold text-white">质量&交付</h5>
               <p class="mt-2 mb-4 text-gray-500">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                优异的产品质量以及准时交付服务
               </p>
             </div>
             <div class="w-full lg:w-3/12 px-4 text-center">
@@ -540,10 +548,31 @@
               >
                 <i class="fas fa-lightbulb text-xl"></i>
               </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
+              <h5 class="text-xl mt-5 font-semibold text-white">高成本效益</h5>
+              <p class="mt-2 mb-4 text-gray-500">提供符合成本效益的解决方案</p>
+            </div>
+            <!-- <div class="w-full lg:w-3/12 px-4 text-center">
+              <div
+                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+              >
+                <i class="fas fa-lightbulb text-xl"></i>
+              </div>
+              <h5 class="text-xl mt-5 font-semibold text-white">
+                多品种，灵活批量的市场策略
+              </h5>
               <p class="mt-2 mb-4 text-gray-500">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                快捷、灵活的运作以满足客户需求  
+              </p>
+            </div> -->
+            <div class="w-full lg:w-3/12 px-4 text-center">
+              <div
+                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+              >
+                <i class="fab fa-instagram text-xl"></i>
+              </div>
+              <h5 class="text-xl mt-5 font-semibold text-white">灵活性</h5>
+              <p class="mt-2 mb-4 text-gray-500">
+                快捷、灵活的运作以满足客户需求
               </p>
             </div>
           </div>
@@ -557,19 +586,19 @@
                 class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
               >
                 <div class="flex-auto p-5 lg:p-10">
-                  <h4 class="text-2xl font-semibold">Want to work with us?</h4>
+                  <h4 class="text-2xl font-semibold">欢迎留下您的合作意向</h4>
                   <p class="leading-relaxed mt-1 mb-4 text-gray-600">
-                    Complete this form and we will get back to you in 24 hours.
+                    完成下面的表格我们会在2个工作日内尽快回复您
                   </p>
                   <div class="relative w-full mb-3 mt-8">
                     <label
                       class="block uppercase text-gray-700 text-xs font-bold mb-2"
                       for="full-name"
-                      >Full Name</label
+                      >姓名</label
                     ><input
                       type="text"
                       class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Full Name"
+                      placeholder="姓名"
                       style="transition: all 0.15s ease 0s"
                     />
                   </div>
@@ -589,12 +618,12 @@
                     <label
                       class="block uppercase text-gray-700 text-xs font-bold mb-2"
                       for="message"
-                      >Message</label
+                      >信息</label
                     ><textarea
                       rows="4"
                       cols="80"
                       class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Type a message..."
+                      placeholder="请输入您的信息..."
                     ></textarea>
                   </div>
                   <div class="text-center mt-6">
@@ -603,7 +632,7 @@
                       type="button"
                       style="transition: all 0.15s ease 0s"
                     >
-                      Send Message
+                      发送
                     </button>
                   </div>
                 </div>

@@ -15,7 +15,7 @@
           style="max-width: 60px"
         />
       </div>
-      <div
+      <!-- <div
         class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
       >
         <a
@@ -29,7 +29,7 @@
         >
           <i class="text-white fas fa-bars"></i>
         </button>
-      </div>
+      </div> -->
       <div
         class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none"
         v-bind:class="{ hidden: !showMenu, block: showMenu }"
@@ -38,11 +38,41 @@
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
+              href="#"
               ><i
                 class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
               ></i>
               最新资讯</a
+            >
+          </li>
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#"
+              ><i
+                class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
+              ></i>
+              产品中心</a
+            >
+          </li>
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#"
+              ><i
+                class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
+              ></i>
+              生产技术</a
+            >
+          </li>
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#"
+              ><i
+                class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
+              ></i>
+              联系我们</a
             >
           </li>
         </ul>
