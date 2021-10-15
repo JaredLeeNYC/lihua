@@ -2,7 +2,7 @@
   <footer class="relative bg-gray-300 pt-8 pb-6">
     <div
       class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-      style="height: 80px;"
+      style="height: 80px"
     >
       <svg
         class="absolute bottom-0 overflow-hidden"
@@ -20,11 +20,11 @@
       </svg>
     </div>
     <div class="container mx-auto px-4">
-      <div class="flex flex-wrap">
+      <!-- <div class="flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4">
-          <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+          <h4 class="text-3xl font-semibold">让我们保持联系！</h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
-            Find us on any of these platforms, we respond 1-2 business days.
+            在任何这些平台上找到我们，我们会在 1-2 个工作日内回复。
           </h5>
           <div class="mt-6">
             <button
@@ -55,35 +55,35 @@
             <div class="w-full lg:w-4/12 px-4 ml-auto">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                >Useful Links</span
+                >相关链接</span
               >
               <ul class="list-unstyled">
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.creative-tim.com/presentation"
-                    >About Us</a
+                    href="#"
+                    >关于我们</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://blog.creative-tim.com"
-                    >Blog</a
+                    href="#"
+                    >最新资讯</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.github.com/creativetimofficial"
-                    >Github</a
+                    href="#"
+                    >产品中心</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.creative-tim.com/bootstrap-themes/free"
-                    >Free Products</a
+                    href="#"
+                    >生产技术</a
                   >
                 </li>
               </ul>
@@ -91,14 +91,14 @@
             <div class="w-full lg:w-4/12 px-4">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                >Other Resources</span
+                >其他资源</span
               >
               <ul class="list-unstyled">
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
-                    >MIT License</a
+                    href="#"
+                    >联系我们</a
                   >
                 </li>
                 <li>
@@ -126,19 +126,19 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <hr class="my-6 border-gray-400" />
       <div
         class="flex flex-wrap items-center md:justify-between justify-center"
       >
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
           <div class="text-sm text-gray-600 font-semibold py-1">
-            Copyright © {{date}} Tailwind Starter Kit by
-            <a
+            Copyright © {{ date }} LiHua
+            <!-- <a
               href="https://www.creative-tim.com"
               class="text-gray-600 hover:text-gray-900"
               >Creative Tim</a
-            >.
+            >. -->
           </div>
         </div>
       </div>
@@ -149,8 +149,8 @@
 export default {
   data() {
     return {
-      date: new Date().getFullYear()
-    }
-  }
-}
+      date: new Date().getFullYear(),
+    };
+  },
+};
 </script>

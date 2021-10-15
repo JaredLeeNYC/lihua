@@ -198,8 +198,8 @@
               <p
                 class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
               >
-                利华成立于 1993 年，致力于全球电子制造服务的全方位服务，为 OEM
-                提供“交钥匙解决方案”、供应链管理和测试解决方案，以始终如一的质量、准时交货和具有竞争力的价格满足客户的期望。
+                利华成立于 1993
+                年，致力于全球电子制造服务的全方位服务，为OEM提供“一站式生产方案”、供应链管理和测试解决方案，以始终如一的质量、准时交货和具有竞争力的价格满足客户的期望。
               </p>
               <!-- <p
                 class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"
@@ -273,13 +273,13 @@
                 src="https://z3.ax1x.com/2021/09/23/4d0JnU.jpg"
               />
             </div>
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <div class="w-full md:w-4/12 ml-auto mr-auto">
               <div class="md:pr-12">
-                <div
+                <!-- <div
                   class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
                 >
                   <i class="fas fa-rocket text-xl"></i>
-                </div>
+                </div> -->
                 <h3 class="text-3xl font-semibold">联系我们</h3>
                 <!-- <p class="mt-4 text-lg leading-relaxed text-gray-600">
                   The extension comes with three pre-built pages to help you get
@@ -292,7 +292,7 @@
                       <div>
                         <span
                           class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                          ><i class="fas fa-fingerprint"></i
+                          ><i class="fas fa-location-arrow"></i
                         ></span>
                       </div>
                       <div>
@@ -307,11 +307,11 @@
                       <div>
                         <span
                           class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                          ><i class="fab fa-html5"></i
+                          ><i class="fas fa-phone"></i
                         ></span>
                       </div>
                       <div>
-                        <h4 class="text-gray-600">联系方式：12345678</h4>
+                        <h4 class="text-gray-600">电话：+86 750 5625181</h4>
                       </div>
                     </div>
                   </li>
@@ -320,12 +320,12 @@
                       <div>
                         <span
                           class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                          ><i class="far fa-paper-plane"></i
+                          ><i class="fas fa-envelope-square"></i
                         ></span>
                       </div>
                       <div>
                         <h4 class="text-gray-600">
-                          办公时间：周一至周六 8:30am~6:00pm
+                          Email：raylee@ts-lihua.com
                         </h4>
                       </div>
                     </div>
@@ -511,7 +511,7 @@
         <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
           <div class="flex flex-wrap text-center justify-center">
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold text-white">利华的优势</h2>
+              <h2 class="text-4xl font-semibold text-white">利华优势</h2>
               <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
                 团队稳定，协作熟练，从而确保项目质量，并使得执行效率远高于行业一般水平，我们与行业专家保持密切沟通合作，具备丰富的项目经验。
               </p>
