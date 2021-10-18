@@ -605,55 +605,64 @@
                 class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
               >
                 <div class="flex-auto p-5 lg:p-10">
-                  <h4 class="text-2xl font-semibold">欢迎留下您的合作意向</h4>
-                  <p class="leading-relaxed mt-1 mb-4 text-gray-600">
-                    完成下面的表格我们会在2个工作日内尽快回复您
-                  </p>
-                  <div class="relative w-full mb-3 mt-8">
-                    <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      for="full-name"
-                      >姓名</label
-                    ><input
-                      type="text"
-                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="姓名"
-                      style="transition: all 0.15s ease 0s"
-                    />
-                  </div>
-                  <div class="relative w-full mb-3">
-                    <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      for="email"
-                      >Email</label
-                    ><input
-                      type="email"
-                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Email"
-                      style="transition: all 0.15s ease 0s"
-                    />
-                  </div>
-                  <div class="relative w-full mb-3">
-                    <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      for="message"
-                      >信息</label
-                    ><textarea
-                      rows="4"
-                      cols="80"
-                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="请输入您的信息..."
-                    ></textarea>
-                  </div>
-                  <div class="text-center mt-6">
-                    <button
-                      class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                      style="transition: all 0.15s ease 0s"
-                    >
-                      发送
-                    </button>
-                  </div>
+                  <form ref="form">
+                    <h4 class="text-2xl font-semibold">欢迎留下您的合作意向</h4>
+                    <p class="leading-relaxed mt-1 mb-4 text-gray-600">
+                      完成下面的表格我们会在2个工作日内尽快回复您
+                    </p>
+                    <div class="relative w-full mb-3 mt-8">
+                      <label
+                        class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                        for="full-name"
+                        >姓名</label
+                      ><input
+                        type="text"
+                        name="from_name"
+                        id="from_name"
+                        class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                        placeholder="姓名"
+                        style="transition: all 0.15s ease 0s"
+                      />
+                    </div>
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                        for="email"
+                        >Email</label
+                      ><input
+                        type="email"
+                        name="reply_to"
+                        id="reply_to"
+                        class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                        placeholder="Email"
+                        style="transition: all 0.15s ease 0s"
+                      />
+                    </div>
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                        for="message"
+                        >信息</label
+                      ><textarea
+                        name="message"
+                        id="message"
+                        rows="4"
+                        cols="80"
+                        class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                        placeholder="请输入您的信息..."
+                      ></textarea>
+                    </div>
+                    <div class="text-center mt-6">
+                      <button
+                        class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                        style="transition: all 0.15s ease 0s"
+                        @click="sendEmail"
+                      >
+                        发送
+                      </button>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
@@ -665,13 +674,37 @@
   </div>
 </template>
 <script>
+import emailjs from "emailjs-com";
 import NavbarComponent from "../components/Navbar.vue";
 import FooterComponent from "../components/Footer.vue";
+
 export default {
   name: "landing-page",
   components: {
     NavbarComponent,
     FooterComponent,
+  },
+  methods: {
+    sendEmail() {
+      console.log("this.$refs.form", this.$refs.form);
+      emailjs
+        .sendForm(
+          "service_zgua8l6",
+          "template_0u7nm0j",
+          this.$refs.form,
+          "user_2F22hfaWWhmJgO0OkRnH6"
+        )
+        .then(
+          (result) => {
+            console.log("SUCCESS!", result.text);
+            alert("已成功发送信息！");
+          },
+          (error) => {
+            console.log("FAILED...", error.text);
+            alert("发送信息失败");
+          }
+        );
+    },
   },
 };
 </script>
