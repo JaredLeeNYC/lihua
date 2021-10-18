@@ -3,7 +3,7 @@
     <navbar-component></navbar-component>
     <main>
       <div
-        class="relative pt-16 pb-32 flex content-center items-center"
+        class="relative pt-40 pb-32 flex content-center items-center"
         style="min-height: 75vh"
       >
         <div
@@ -76,26 +76,31 @@
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap">
             <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-              <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              <router-link
+                to="/pcba"
+                class="nav-link"
+                exact-active-class="nav-link active"
               >
-                <div class="px-4 py-5 flex-auto">
-                  <div
-                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
-                  >
-                    <i class="fas fa-award"></i>
-                  </div>
-                  <h6 class="text-xl font-semibold">PCBA</h6>
-                  <img
-                    alt="..."
-                    src="../assets/img/pcba.png"
-                    class="shadow-lg rounded-lg max-w-full mx-auto my-4"
-                    style="max-width: 260px"
-                  />
-                  <!-- <p class="mt-2 mb-4 text-gray-600">
+                <div
+                  class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                >
+                  <div class="px-4 py-5 flex-auto">
+                    <div
+                      class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
+                    >
+                      <i class="fas fa-award"></i>
+                    </div>
+                    <h6 class="text-xl font-semibold">PCBA</h6>
+                    <img
+                      alt="..."
+                      src="../assets/img/pcba.png"
+                      class="shadow-lg rounded-lg max-w-full mx-auto my-4"
+                      style="max-width: 260px"
+                    />
+                    <!-- <p class="mt-2 mb-4 text-gray-600">
                     工业控制、汽车或航天类定制线束。压接、焊接&绝缘穿刺（IDC）连接工艺。可靠性测试，自动线束测试，高压测试。
                   </p> -->
-                  <!-- <ul>
+                    <!-- <ul>
                     <li class="mt-2 mb-4 text-gray-600">
                       表 面 贴 装 、 通 孔 插 装 、 R o H S 或 N o n - R o H S
                       、 水 洗 或 免 洗 焊 接 工 艺
@@ -111,21 +116,27 @@
                       循 环 试 验
                     </li>
                   </ul> -->
+                  </div>
                 </div>
-              </div>
+              </router-link>
             </div>
             <div class="w-full md:w-4/12 px-4 text-center">
-              <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              <router-link
+                to="/cable"
+                class="nav-link"
+                exact-active-class="nav-link active"
               >
-                <div class="px-4 py-5 flex-auto">
-                  <div
-                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
-                  >
-                    <i class="fas fa-retweet"></i>
-                  </div>
-                  <h6 class="text-xl font-semibold">Cable</h6>
-                  <!-- <ul>
+                <div
+                  class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                >
+                  <div class="px-4 py-5 flex-auto">
+                    <div
+                      class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
+                    >
+                      <i class="fas fa-retweet"></i>
+                    </div>
+                    <h6 class="text-xl font-semibold">Cable</h6>
+                    <!-- <ul>
                     <li class="mt-2 mb-4 text-gray-600">
                       工 业 控 制 、 汽 车 或 航 天 类 定 制 线 束。
                     </li>
@@ -136,31 +147,37 @@
                       可 靠 性 测 试 ， 自 动 线 束 测 试 ， 高 压 测 试
                     </li>
                   </ul> -->
-                  <!-- <p class="mt-2 mb-4 text-gray-600">
+                    <!-- <p class="mt-2 mb-4 text-gray-600">
                     工业控制、汽车或航天类定制线束。压接、焊接&绝缘穿刺（IDC）连接工艺。可靠性测试，自动线束测试，高压测试。
                   </p> -->
-                  <img
-                    alt="..."
-                    src="../assets/img/cable.png"
-                    class="shadow-lg rounded-lg max-w-full mx-auto my-4"
-                    style="max-width: 260px"
-                  />
+                    <img
+                      alt="..."
+                      src="../assets/img/cable.png"
+                      class="shadow-lg rounded-lg max-w-full mx-auto my-4"
+                      style="max-width: 260px"
+                    />
+                  </div>
                 </div>
-              </div>
+              </router-link>
             </div>
             <div class="pt-6 w-full md:w-4/12 px-4 text-center">
-              <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              <router-link
+                to="/box"
+                class="nav-link"
+                exact-active-class="nav-link active"
               >
-                <div class="px-4 py-5 flex-auto">
-                  <div
-                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
-                  >
-                    <i class="fas fa-fingerprint"></i>
-                  </div>
-                  <h6 class="text-xl font-semibold">Box</h6>
+                <div
+                  class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                >
+                  <div class="px-4 py-5 flex-auto">
+                    <div
+                      class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+                    >
+                      <i class="fas fa-fingerprint"></i>
+                    </div>
+                    <h6 class="text-xl font-semibold">Box</h6>
 
-                  <!-- <ul>
+                    <!-- <ul>
                     <li class="mt-2 mb-4 text-gray-600">
                       整 机 组 装 / 机 电 装 配
                     </li>
@@ -172,22 +189,24 @@
                       定 制 化 的 组 装 、 测 试 以 及 包 装 方 式
                     </li>
                   </ul> -->
-                  <!-- <p class="mt-2 mb-4 text-gray-600">
+                    <!-- <p class="mt-2 mb-4 text-gray-600">
                     工业控制、汽车或航天类定制线束。压接、焊接&绝缘穿刺（IDC）连接工艺。可靠性测试，自动线束测试，高压测试。
                   </p> -->
-                  <img
-                    alt="..."
-                    src="../assets/img/box.png"
-                    class="shadow-lg rounded-lg max-w-full mx-auto my-4"
-                    style="max-width: 260px"
-                  />
+                    <img
+                      alt="..."
+                      src="../assets/img/box.png"
+                      class="shadow-lg rounded-lg max-w-full mx-auto my-4"
+                      style="max-width: 260px"
+                    />
+                  </div>
                 </div>
-              </div>
+              </router-link>
             </div>
           </div>
           <div class="flex flex-wrap items-center mt-32">
             <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
               <div
+                id="aboutus"
                 class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
               >
                 <i class="fas fa-user-friends text-xl"></i>
@@ -265,7 +284,7 @@
           </svg>
         </div>
         <div class="container mx-auto px-4">
-          <div class="items-center flex flex-wrap">
+          <div id="contactus" class="items-center flex flex-wrap">
             <div class="w-full md:w-6/12 ml-auto mr-auto px-4">
               <img
                 alt="..."

@@ -7,29 +7,30 @@
     >
       <div
         class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
-      >
-        <img
-          alt="..."
-          src="../assets/logo2.png"
-          class="shadow-lg rounded-full max-w-full mx-auto mr-12"
-          style="max-width: 60px"
-        />
-      </div>
-      <!-- <div
+      ></div>
+      <div
         class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
       >
-        <a
-          class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
-          href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-          >关于我们</a
-        ><button
+        <router-link
+          to="/"
+          class="nav-link lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+          exact-active-class="nav-link active"
+        >
+          <img
+            alt="..."
+            src="../assets/logo2.png"
+            class="shadow-lg rounded-full max-w-full mx-auto mr-12"
+            style="max-width: 60px"
+          />
+        </router-link>
+        <button
           class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
           type="button"
           v-on:click="toggleNavbar()"
         >
           <i class="text-white fas fa-bars"></i>
         </button>
-      </div> -->
+      </div>
       <div
         class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none"
         v-bind:class="{ hidden: !showMenu, block: showMenu }"
@@ -38,46 +39,50 @@
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#"
+              href="http://www.ts-lihua.com/index#aboutus"
               ><i
-                class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
+                class="lg:text-gray-300 text-gray-500 fas fa-user-friends text-lg leading-lg mr-2"
               ></i>
-              最新资讯</a
+
+              关于我们</a
+            >
+          </li>
+          <li class="flex items-center">
+            <router-link
+              to="/pcba"
+              class="nav-link lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              exact-active-class="nav-link active"
+              ><i
+                class="lg:text-gray-300 text-gray-500 fas fa-server text-lg leading-lg mr-2"
+              ></i>
+
+              产品中心</router-link
+            >
+          </li>
+          <li class="flex items-center">
+            <router-link
+              to="/cable"
+              class="nav-link lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              exact-active-class="nav-link active"
+              ><i
+                class="lg:text-gray-300 text-gray-500 fas fa-digital-tachograph text-lg leading-lg mr-2"
+              ></i>
+              生产技术</router-link
             >
           </li>
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#"
+              href="http://www.ts-lihua.com/index#contactus"
               ><i
-                class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
-              ></i>
-              产品中心</a
-            >
-          </li>
-          <li class="flex items-center">
-            <a
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#"
-              ><i
-                class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
-              ></i>
-              生产技术</a
-            >
-          </li>
-          <li class="flex items-center">
-            <a
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#"
-              ><i
-                class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
+                class="lg:text-gray-300 text-gray-500 far fa-address-card text-lg leading-lg mr-2"
               ></i>
               联系我们</a
             >
           </li>
         </ul>
         <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
-          <li class="flex items-center">
+          <!-- <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="#pablo"
@@ -106,14 +111,14 @@
               ></i
               ><span class="lg:hidden inline-block ml-2">Star</span></a
             >
-          </li>
+          </li> -->
           <li class="flex items-center">
             <button
               class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
               type="button"
               style="transition: all 0.15s ease 0s"
             >
-              <i class="fas fa-arrow-alt-circle-down"></i> English
+              English
             </button>
           </li>
         </ul>

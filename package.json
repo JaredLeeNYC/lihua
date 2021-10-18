@@ -12,7 +12,8 @@
     "@vue/cli-plugin-babel": "4.1.1",
     "superagent": "5.2.1",
     "superagent-promise": "1.1.0",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "3.0.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "4.1.1",
