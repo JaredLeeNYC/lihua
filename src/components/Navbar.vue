@@ -38,7 +38,7 @@
         <ul class="flex flex-col lg:flex-row list-none mr-auto">
           <li class="flex items-center">
             <router-link
-              to="/aboutus"
+              to="aboutus"
               class="nav-link lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               exact-active-class="nav-link active"
               ><i
@@ -73,7 +73,7 @@
           </li>
           <li class="flex items-center">
             <router-link
-              to="/contactus"
+              to="contactus"
               class="nav-link lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               exact-active-class="nav-link active"
               ><i
