@@ -77,7 +77,8 @@
               ><i
                 class="lg:text-gray-300 text-gray-500 far fa-address-card text-lg leading-lg mr-2"
               ></i>
-            </a>
+              联系我们</a
+            >
           </li>
         </ul>
         <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
