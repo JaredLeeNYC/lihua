@@ -37,14 +37,15 @@
       >
         <ul class="flex flex-col lg:flex-row list-none mr-auto">
           <li class="flex items-center">
-            <a
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="http://www.ts-lihua.com/index#aboutus"
+            <router-link
+              to="/index#aboutus"
+              class="nav-link lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              exact-active-class="nav-link active"
               ><i
                 class="lg:text-gray-300 text-gray-500 fas fa-user-friends text-lg leading-lg mr-2"
               ></i>
 
-              关于我们</a
+              关于我们</router-link
             >
           </li>
           <li class="flex items-center">
@@ -71,13 +72,14 @@
             >
           </li>
           <li class="flex items-center">
-            <a
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="http://www.ts-lihua.com/index#contactus"
+            <router-link
+              to="/index#contactus"
+              class="nav-link lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              exact-active-class="nav-link active"
               ><i
                 class="lg:text-gray-300 text-gray-500 far fa-address-card text-lg leading-lg mr-2"
               ></i>
-              联系我们</a
+              联系我们</router-link
             >
           </li>
         </ul>
