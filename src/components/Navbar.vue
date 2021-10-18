@@ -37,15 +37,14 @@
       >
         <ul class="flex flex-col lg:flex-row list-none mr-auto">
           <li class="flex items-center">
-            <router-link
-              to="aboutus"
-              class="nav-link lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              exact-active-class="nav-link active"
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#aboutus"
               ><i
                 class="lg:text-gray-300 text-gray-500 fas fa-user-friends text-lg leading-lg mr-2"
               ></i>
 
-              关于我们</router-link
+              关于我们</a
             >
           </li>
           <li class="flex items-center">
@@ -72,15 +71,13 @@
             >
           </li>
           <li class="flex items-center">
-            <router-link
-              to="contactus"
-              class="nav-link lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              exact-active-class="nav-link active"
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#contactus"
               ><i
                 class="lg:text-gray-300 text-gray-500 far fa-address-card text-lg leading-lg mr-2"
               ></i>
-              联系我们</router-link
-            >
+            </a>
           </li>
         </ul>
         <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
