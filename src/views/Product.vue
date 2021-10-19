@@ -1,4 +1,4 @@
-<template>
+a<template>
   <div>
     <navbar-component></navbar-component>
     <main class="profile-page">
@@ -139,6 +139,155 @@
                     src="https://z3.ax1x.com/2021/10/18/5NNXdS.png"
                   />
                 </div>
+
+                <!-- <div class="mb-2 text-gray-700 mt-10">
+                  <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i
+                  >Solution Manager - Creative Tim Officer
+                </div>
+                <div class="mb-2 text-gray-700">
+                  <i class="fas fa-university mr-2 text-lg text-gray-500"></i
+                  >University of Computer Science
+                </div> -->
+              </div>
+              <div class="mt-10 py-10 border-t border-gray-300 text-center">
+                <div class="flex flex-wrap justify-center">
+                  <div class="w-full lg:w-9/12 px-4">
+                    <!-- <p class="mb-4 text-lg leading-relaxed text-gray-800">
+                      超25年专注于电子制造服务，完善的工业配套方案为客户提供世界级质量以及有竞争性的产品与服务。产品分布于航空控制，工业仪器，医疗设备，多媒体，专业音响设备，交通运输以及电机驱动系统等领域。
+                    </p> -->
+                    <!-- <a href="#pablo" class="font-normal text-pink-500"
+                      >Show more</a
+                    > -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="px-6">
+              <div class="text-center mt-12">
+                <h3
+                  class="text-4xl font-semibold leading-normal mb-2 text-gray-800 mb-2"
+                >
+                  Cable
+                </h3>
+                <img
+                  alt="..."
+                  src="https://z3.ax1x.com/2021/10/18/5Ndqqx.png"
+                  class="mx-auto mt-12"
+                />
+                <img
+                  alt="..."
+                  src="https://z3.ax1x.com/2021/10/18/5Naj3j.png"
+                  class="mx-auto mt-12"
+                />
+                <img
+                  alt="..."
+                  src="https://z3.ax1x.com/2021/10/18/5NwyFO.png"
+                  class="mx-auto mt-12"
+                />
+                <div class="flex flex-wrap justify-center mt-12">
+                  <div class="w-full lg:w-9/12 px-4">
+                    <p class="mb-4 text-lg leading-relaxed text-gray-800">
+                      IPC/WHMA-A-620 Certified IPC Trainer and specialists,
+                      complaince with Class 3 standard.
+                    </p>
+                    <p class="mb-4 text-lg leading-relaxed text-gray-800">
+                      Hand crimping and Aoto-crimping for various terminal and
+                      wire are available to cover customer demands.
+                    </p>
+                    <p class="mb-4 text-lg leading-relaxed text-gray-800">
+                      Pull test and Cirris Easy-Wire-CR test for quality control
+                    </p>
+                    <!-- <a href="#pablo" class="font-normal text-pink-500"
+                      >Show more</a
+                    > -->
+                  </div>
+                </div>
+                <img
+                  alt="..."
+                  src="https://z3.ax1x.com/2021/10/18/5NwrTK.png"
+                  class="mx-auto mt-12"
+                />
+                <img
+                  alt="..."
+                  src="https://z3.ax1x.com/2021/10/18/5NwwO1.png"
+                  class="mx-auto mt-12"
+                />
+                <img
+                  alt="..."
+                  src="https://z3.ax1x.com/2021/10/18/5NwBex.png"
+                  class="mx-auto mt-12"
+                />
+                <img
+                  alt="..."
+                  src="https://z3.ax1x.com/2021/10/18/5NwDw6.png"
+                  class="mx-auto mt-12"
+                />
+
+                <!-- <div class="mb-2 text-gray-700 mt-10">
+                  <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i
+                  >Solution Manager - Creative Tim Officer
+                </div>
+                <div class="mb-2 text-gray-700">
+                  <i class="fas fa-university mr-2 text-lg text-gray-500"></i
+                  >University of Computer Science
+                </div> -->
+              </div>
+              <div class="mt-10 py-10 border-t border-gray-300 text-center">
+                <div class="flex flex-wrap justify-center">
+                  <div class="w-full lg:w-9/12 px-4">
+                    <!-- <p class="mb-4 text-lg leading-relaxed text-gray-800">
+                      超25年专注于电子制造服务，完善的工业配套方案为客户提供世界级质量以及有竞争性的产品与服务。产品分布于航空控制，工业仪器，医疗设备，多媒体，专业音响设备，交通运输以及电机驱动系统等领域。
+                    </p> -->
+                    <!-- <a href="#pablo" class="font-normal text-pink-500"
+                      >Show more</a
+                    > -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="px-6">
+              <div class="text-center mt-12">
+                <h3
+                  class="text-4xl font-semibold leading-normal mb-2 text-gray-800 mb-2"
+                >
+                  Box
+                </h3>
+                <img
+                  alt="..."
+                  src="https://z3.ax1x.com/2021/10/18/5NBF58.png"
+                  class="mx-auto mt-12"
+                />
+                <img
+                  alt="..."
+                  src="https://z3.ax1x.com/2021/10/18/5NBV2Q.png"
+                  class="mx-auto mt-12"
+                />
+                <img
+                  alt="..."
+                  src="https://z3.ax1x.com/2021/10/18/5NBAPS.png"
+                  class="mx-auto mt-12"
+                />
+
+                <img
+                  alt="..."
+                  src="https://z3.ax1x.com/2021/10/18/5NBiUf.png"
+                  class="mx-auto mt-12"
+                />
+                <img
+                  alt="..."
+                  src="https://z3.ax1x.com/2021/10/18/5NBE8g.png"
+                  class="mx-auto mt-12"
+                />
+                <img
+                  alt="..."
+                  src="https://z3.ax1x.com/2021/10/18/5NBZvj.png"
+                  class="mx-auto mt-12"
+                />
+                <img
+                  alt="..."
+                  src="https://z3.ax1x.com/2021/10/18/5NBmKs.png"
+                  class="mx-auto mt-12"
+                />
 
                 <!-- <div class="mb-2 text-gray-700 mt-10">
                   <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i

@@ -30,6 +30,16 @@ export default new Router({
       path: "/box",
       name: "box",
       component: () => import("./views/Box.vue")
+    },
+    {
+      path: "/quality",
+      name: "quality",
+      component: () => import("./views/Quality.vue")
+    },
+    {
+      path: "/product",
+      name: "product",
+      component: () => import("./views/Product.vue")
     }
   ]
 });

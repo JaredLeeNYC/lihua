@@ -49,7 +49,7 @@
           </li>
           <li class="flex items-center">
             <router-link
-              to="/pcba"
+              to="/product"
               class="nav-link lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               exact-active-class="nav-link active"
               ><i
@@ -61,13 +61,13 @@
           </li>
           <li class="flex items-center">
             <router-link
-              to="/cable"
+              to="/quality"
               class="nav-link lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               exact-active-class="nav-link active"
               ><i
                 class="lg:text-gray-300 text-gray-500 fas fa-digital-tachograph text-lg leading-lg mr-2"
               ></i>
-              生产技术</router-link
+              质量保证</router-link
             >
           </li>
           <li class="flex items-center">
