@@ -17,7 +17,7 @@
           exact-active-class="nav-link active"
         >
           <img
-            alt="..."
+            alt="利华电子"
             src="../assets/logo2.png"
             class="shadow-lg rounded-full max-w-full mx-auto mr-12"
             style="max-width: 60px"
