@@ -92,7 +92,7 @@
                     </div>
                     <h6 class="text-xl font-semibold">PCBA</h6>
                     <img
-                      alt="..."
+                      alt="台山市利华"
                       src="../assets/img/pcba.png"
                       class="shadow-lg rounded-lg max-w-full mx-auto my-4"
                       style="max-width: 260px"
@@ -151,7 +151,7 @@
                     工业控制、汽车或航天类定制线束。压接、焊接&绝缘穿刺（IDC）连接工艺。可靠性测试，自动线束测试，高压测试。
                   </p> -->
                     <img
-                      alt="..."
+                      alt="利华电子厂有限公司"
                       src="../assets/img/cable.png"
                       class="shadow-lg rounded-lg max-w-full mx-auto my-4"
                       style="max-width: 260px"
@@ -193,7 +193,7 @@
                     工业控制、汽车或航天类定制线束。压接、焊接&绝缘穿刺（IDC）连接工艺。可靠性测试，自动线束测试，高压测试。
                   </p> -->
                     <img
-                      alt="..."
+                      alt="台山利华"
                       src="../assets/img/box.png"
                       class="shadow-lg rounded-lg max-w-full mx-auto my-4"
                       style="max-width: 260px"
@@ -236,7 +236,7 @@
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600"
               >
                 <img
-                  alt="..."
+                  alt="台山市利华"
                   src="https://z3.ax1x.com/2021/10/13/5KeGr9.png"
                   class="w-full align-middle rounded-t-lg"
                 />
@@ -287,7 +287,7 @@
           <div id="contactus" class="items-center flex flex-wrap">
             <div class="w-full md:w-6/12 ml-auto mr-auto px-4">
               <img
-                alt="..."
+                alt="利华台山市"
                 class="max-w-full rounded-lg shadow-lg"
                 src="https://z3.ax1x.com/2021/09/23/4d0JnU.jpg"
               />
@@ -367,7 +367,7 @@
             <div class="w-full md:w-6/12 lg:mb-0 mb-12 px-4 mt-12">
               <div class="px-6">
                 <img
-                  alt="..."
+                  alt="利华电子厂"
                   src="https://z3.ax1x.com/2021/10/09/5FcK2R.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 360px"
@@ -381,7 +381,7 @@
             <div class="w-full md:w-6/12 lg:mb-0 mb-12 px-4 mt-12">
               <div class="px-6">
                 <img
-                  alt="..."
+                  alt="利华电子"
                   src="https://z3.ax1x.com/2021/10/09/5FcnPJ.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 360px"
@@ -395,7 +395,7 @@
             <div class="w-full md:w-6/12 lg:mb-0 mb-12 px-4 mt-12">
               <div class="px-6">
                 <img
-                  alt="..."
+                  alt="利华公司"
                   src="https://z3.ax1x.com/2021/10/09/5Fce54.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 360px"
@@ -409,7 +409,7 @@
             <div class="w-full md:w-6/12 lg:mb-0 mb-12 px-4 mt-12">
               <div class="px-6">
                 <img
-                  alt="..."
+                  alt="台山利华"
                   src="https://z3.ax1x.com/2021/10/09/5FcZaF.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 360px"
